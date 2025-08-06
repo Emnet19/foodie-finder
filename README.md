@@ -78,9 +78,6 @@ Foodie-Finder/
 
 └── .gitignore
 
-# check Livesite https://foodie-finder-weld.vercel.app/
-
-
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
