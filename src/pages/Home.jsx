@@ -6,7 +6,7 @@ const Home = () => {
 
   
     return (
-        <div id="home" className=" overflow-x-hidden relative bg-cover bg-center bg-norepeat h-screen  bg-[url(C:\Users\emnbe\Documents\foodie-finder\public\vegi.jpg)]  " loading='lazy'>
+        <div id="home" className=" overflow-x-hidden relative bg-cover bg-center bg-norepeat h-screen  bg-[url(public\assets\vegii.jpg)]  " loading='lazy'>
             <Nav />
             <div className="relative z-10 container mx-auto flex flex-col justify-center items-start h-screen text-white px-6 md:px-12 lg:px-24">
         <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold mb-4 ">
