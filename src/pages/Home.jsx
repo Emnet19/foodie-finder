@@ -79,7 +79,7 @@ const Home = () => {
     {/* Image Section */}
     <div className="w-full md:w-1/2 flex justify-center">
       <img
-        src="drink.jpg"
+        src="drink.webp"
         alt="Delicious Meal"
         className="  w-full max-w-md h-auto object-cover"
       />
