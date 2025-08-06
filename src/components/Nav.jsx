@@ -1,38 +1,5 @@
-// {/* nav */ }
-// import React, { useState } from 'react';
-// // import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
-// import SearchBar from './SearchBar';
-// const Nav = () => {
-//   // const [nav, setNav] = useState(false);
-
-//   return (
-//     <div className="flex justify-between items-center  mx-auto px-4 pt-9   bg-whit text-white shadow- text-gray-700 ">
-//       <div className="flex gap-3 items-center">
-//         <img src="logo.jpg" alt="Logo" className="h-12 mb-24" />
-//         <p className="mb-24  text-2xl font-bold text-green-500">Food Finder</p>
-
-//       </div>
-
-//       <ul className=" md:flex space-x mb-20 font-semibold ">
-//         <li className=" p-4 hover:text-green-500"><a href="#home">Home</a></li>
-//         <li className="p-4 hover:text-green-500"><a href="#Category">About</a></li>
-//         <li className="p-4 hover:text-green-500"><a href="#meals">Meal</a></li>
-//         <li className="p-4 hover:text-green-500"><a href="#random">Random Generator</a></li>
-//         {/* <li className='p-4 '><SearchBar/> </li> */}
-//       </ul>
-//       <div className=" mb-12">
-//         <SearchBar />
-//       </div>
-//     </div>
-//   )
-// }
-// export default Nav;
-
-
-
-
 import { useState } from "react";
-import { Menu, X } from "lucide-react"; // or use any icon set you prefer
+import { Menu, X } from "lucide-react"; 
 import SearchBar from "./SearchBar";
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Link } from "react-router-dom";
@@ -50,7 +17,6 @@ const Navbar = () => {
           <div className=" flex text-xl  gap-3 font-bold text-green-500">🍽  FoodieFinder</div>
  <div className="flex gap-3 ite">
         
-        {/* <p className="mb-24  text-2xl font-bold text-green-500">Food Finder</p> */}
 
       </div>
           {/* Desktop Menu */}
@@ -58,8 +24,7 @@ const Navbar = () => {
             <li className="p-4 hover:text-green-500"><a href="#home">Home</a></li>
             <li className="p-4 hover:text-green-500"><a href="#about">About</a></li>
             <li className="p-4 hover:text-green-500"><a href="#meals">Meal</a></li>
-{/*             <li className="p-4 hover:text-green-500"><a href="/RandomMeal " target="_blank" rel="noopener noreferer">Random Generator</a></li> */}
-            <Link to="/RandomMeal">Random Generator</Link>
+            <Link  to="/RandomMeal" className="p-4 hover:text-green-500">Random Generator</Link>
 
             <li className="p-4"><SearchBar/></li>
           </ul>
