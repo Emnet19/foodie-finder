@@ -35,6 +35,8 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react"; // or use any icon set you prefer
 import SearchBar from "./SearchBar";
 import { useLocation, useNavigate } from 'react-router-dom';
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -56,7 +58,9 @@ const Navbar = () => {
             <li className="p-4 hover:text-green-500"><a href="#home">Home</a></li>
             <li className="p-4 hover:text-green-500"><a href="#about">About</a></li>
             <li className="p-4 hover:text-green-500"><a href="#meals">Meal</a></li>
-            <li className="p-4 hover:text-green-500"><a href="/RandomMeal " target="_blank" rel="noopener noreferer">Random Generator</a></li>
+{/*             <li className="p-4 hover:text-green-500"><a href="/RandomMeal " target="_blank" rel="noopener noreferer">Random Generator</a></li> */}
+            <Link to="/RandomMeal">Random Generator</Link>
+
             <li className="p-4"><SearchBar/></li>
           </ul>
 
