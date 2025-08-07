@@ -40,11 +40,13 @@ const Navbar = () => {
 
       {/* Mobile Menu Dropdown */}
       {isOpen && (
-        <ul className="md:hidden bg-white w-full px-6 pb-4 space-y-4 font-semibold">
-          <li className="hover:text-green-500"><a href="#home" onClick={toggleMenu}>Home</a></li>
-          <li className="hover:text-green-500"><a href="#Category" onClick={toggleMenu}>About</a></li>
-          <li className="hover:text-green-500"><a href="#meals" onClick={toggleMenu}>Meal</a></li>
-          <li className="hover:text-green-500"><a href="/RandomMeal " target="_blank" rel="noopener noreferer" onClick={toggleMenu}>Random Generator</a></li>
+        <ul className="md:hidde bg-white/20 w-full px-6 pb-4 space-y-4 font-semibold">
+          <li className=" text-white hover:text-green-500"><a href="#home" onClick={toggleMenu}>Home</a></li>
+          <li className=" text-white hover:text-green-500"><a href="#Category" onClick={toggleMenu}>About</a></li>
+          <li className=" text-white hover:text-green-500"><a href="#meals" onClick={toggleMenu}>Meal</a></li>
+          <Link  to="/RandomMeal" className="text-white hover:text-green-500">Random Generator</Link>
+           <li className="p-3"><SearchBar/></li>
+
         </ul>
       )}
     </nav>
