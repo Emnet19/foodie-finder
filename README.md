@@ -1,8 +1,9 @@
-<img width="1897" height="964" alt="image" src="https://github.com/user-attachments/assets/d856d602-ffbc-41e9-9743-f95ba595243e" />
 
 #  🍽️ Foodie Finder - Discover Meals Around the World
 
 **Foodie Finder** is a modern React-based web application that lets users explore delicious meals from around the world. Whether you’re searching by meal name, ingredients, or exploring random dishes, this app makes discovering new recipes easy and fun.
+
+# 🔗 Check it out here: https://foodie-finder-o8k9.vercel.app/
 
 ## 📌 Features
 
